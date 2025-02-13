@@ -95,7 +95,7 @@ The creation of tests for the new component is also expected, both end to end an
 
 ### Server "Tour Guide" Agent for Onboarding New Users 
 
-👥 **Mentor(s):** Gabriel Casals, Jeffery Y
+👥 **Mentor(s):** Gabriel Casals, Jeffery Yu
 
 💬 **Description:**
 
