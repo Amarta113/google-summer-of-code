@@ -59,6 +59,80 @@ As of **January 27th 2025**  checkout our [GSoC 2025  Contributors Leaderboard](
 > This is a fast moving draft of the GSoC 2025 project ideas list for Rocket.Chat,  the projects are expected to go through constant rapid changes as mentors and potential contributors discuss and evolve the project descriptions.
 > 
 
+### 💡Maestro as Mobile UI Testing Framework 
+
+👥 **Mentor(s):** Diego Mello
+
+💬 **Description:**  
+
+Migrate Rocket.Chat Mobile app's UI testing framework from Detox to Maestro. Maestro is a modern mobile UI testing framework that offers several advantages over Detox:
+
+- More reliable test execution with fewer flaky tests
+- Better debugging capabilities with detailed test reports and video recordings
+- Simpler test writing syntax using YAML
+- Cross-platform support for both iOS and Android
+- Active community and development
+
+This migration will help improve the reliability and maintainability of our mobile app testing suite while reducing the time spent debugging flaky tests.
+
+💪 **Desired Skills:**  
+
+- Experience with mobile app testing
+- Knowledge of React Native
+- Familiarity with YAML syntax
+- Understanding of CI/CD concepts
+- Basic knowledge of iOS and Android development
+- Good problem-solving skills
+- Experience with Git and GitHub
+
+🎯 **Goals/Deliverables:**  
+
+- Setting up Maestro testing infrastructure in the mobile repo
+- Converting existing Detox tests to Maestro format
+- Creating new tests to improve coverage
+- Implementing CI/CD pipeline integration on Github Actions
+- Documentation of testing practices and guidelines
+
+⏳ **Project Duration:** 175 hours (Medium)    
+
+📈 **Difficulty:** Intermediate  
+
+---
+
+
+### 🚀 Hugging Face Management Assistant for Rocket.Chat  
+👥 Mentor(s): Prisha Gupta
+
+📢 **Communication Channel:** idea-HuggingFace-Management-Agent  
+
+💬 **Description:  **
+
+Managing models, datasets, and Spaces on Hugging Face can be challenging, especially within teams. This Rocket.Chat app will integrate with Hugging Face Hub APIs to allow users to list, update, and monitor HF resources directly from Rocket.Chat.  
+
+The App will enable:  
+- Viewing available models, datasets, and Spaces  
+- Updating model metadata (e.g., descriptions, tags)  
+- Managing repository settings (private/public, visibility)  
+- Get updates on Space build status  
+- Manage PRs
+- Real-time notifications for updates on Repos
+
+By integrating management functionalities directly into Rocket.Chat, teams can streamline collaboration and reduce the need to switch between multiple platforms.  
+
+Bonus nice-to-haves are any additional innovative features that leverage generative AI (LLMs) to facilitate in-channel interactions with Hugging Face. 
+
+💪 **Desired Skills:**  
+- Rocket.Chat Apps Engine and TypeScript  
+- Hugging Face Hub API
+- API authentication and security  
+
+🎯 **Goals/Deliverables:**  
+A Rocket.Chat App that allows users to manage Hugging Face repositories, models, datasets, and Spaces efficiently through chat commands. It will provide an intuitive interface for listing, updating, and tracking resources with real-time notifications.  
+
+⏳ **Project Duration:** 90 hours (Small) 
+
+---
+
 ### 💡Real Time Message Rendering in Message Composer
 
 👥 **Mentor(s):** [Martin Schoeler](https://open.rocket.chat/direct/martin.schoeler)
@@ -996,3 +1070,6 @@ Ability for administrators to control the upload/download capability per user, i
 ⏳ **Project Duration:** 90 hours (Small)  
 
 📈 **Difficulty:** Intermediate  
+
+---
+
